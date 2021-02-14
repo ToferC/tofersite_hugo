@@ -1,0 +1,49 @@
+baseURL = "https://toferc.github.io/"
+languageCode = "en-us"
+title = "Art of the Passable"
+theme = "hugo-theme-m10c"
+description = "Musings on how we can do government and society better."
+googleAnalytics = "G-FDZS39S2ZC"
+discusShortname = "toferc-github-io"
+
+
+[params]
+author = "Chris Allison"
+description = '''Musings on how we can do government and society better by a geek, gamer, storyteller and leader. I am an executive in the public service of Canada. The views expressed in this post are my own and do not necessarily reflect the opinions of the Canada School of Public Service or the Government of Canada. (He/Him)'''
+avatar = "avatar.jpg"
+title = "Art of the Passable"
+images = ["site_image.jpg"]
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/toferc"
+
+[[params.social]]
+  name = "twitter"
+  url = "https://Twitter.com/toferc"
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/chris-allison-b7153328/"
+
+# Green theme
+[params.style]
+  darkestColor = "#315659"
+  darkColor = "#253031"
+  primaryColor = "#dad865"
+  lightColor = "#96a879"
+  lightestColor = "#fff"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
